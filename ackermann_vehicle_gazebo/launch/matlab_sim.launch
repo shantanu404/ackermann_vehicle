@@ -37,5 +37,5 @@ limitations under the License.
 
 <launch>
   <include file="$(find ackermann_vehicle_gazebo)/launch/ackermann_vehicle_noetic.launch"/>
-  <node pkg="ackermann_vehicle_navigation" type="cmd_vel_to_ackermann_drive.py" name="cmd_vel_to_ackermann_drive" />
+  <!-- <node pkg="ackermann_vehicle_navigation" type="cmd_vel_to_ackermann_drive.py" name="cmd_vel_to_ackermann_drive" /> -->
 </launch>
